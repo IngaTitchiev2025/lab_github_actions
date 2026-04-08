@@ -1,0 +1,12 @@
+name: My_workflow
+on: 
+  push: 
+      branches: main
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scrie Salut 
+        run: echo "Salut din testare"
+      
